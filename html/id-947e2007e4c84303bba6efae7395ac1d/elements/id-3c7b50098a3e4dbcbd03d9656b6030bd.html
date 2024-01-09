@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Self Checkout</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Self Checkout</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessProcess"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessProcess" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-9dface1769fd4dc3bb940c4043b32a29">
+																	<td><a href="../views/id-9dface1769fd4dc3bb940c4043b32a29.html" target="view" title="Default View"> Default View </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/id-72b13d0510bc46ee877db3978fca93ed.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-RealizationRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-b206b313f9ec477cb31a35db363e74f4.html" target="element"> Checkout service</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-21da9b72fef44796b2ee887d61361828.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-32a7939ca76a43ddacace6a8fd205564.html" target="element"> Weigh Noddles</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-163a9231dd21452c875e8cdad4d47d7a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-d6c8ccfc1c5941ccab146a96b12a7ea5.html" target="element"> Validate Campus ID</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-533c20ed0b554547a1b5139f9a83291f.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-4a5326171741435485742db9ce1a427f.html" target="element"> Pay by CC</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-99c59a9bfdb6434a99cba0545a60cb6e.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-1890505f24054d22811be3ee019b26e3.html" target="element"> Print Reciept</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-074361f073634d478a6c19fdaedfdc09.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-6ac05fde36f545448995c60352d45c5c.html" target="element"> </a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c6680fc89dae43d09f231cb5a02c2c64.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-634c3a24c3bf411daf9321c37bff9059.html" target="element"> Confirm Payment</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-0ff62e73e3dc4378a106187c702cfa9b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-65eeffba7bbd4be7834d796ec1d2c19d.html" target="element"> Compute Price</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-bf4939232601421cbf0efc469d08dfe5.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-0e0b991654c14df4a5c0711a04c916f4.html" target="element"> Process Payment</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-ffcecbea48b7423eabc618b37acea806.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-6aae0e3ef2cd4c4e884d7ce79be30f79.html" target="element"> Confirm Payment</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-f25b495437384eb4903fde8c17083eec.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-7bca6cc064f84ab686851c1776a4101b.html" target="element"> Scan Campus Card</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-5496c41356e247e79dfd6235f31130d8.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-3b1ff2f55ea34bf68331e1ffd64ac765.html" target="element"> Business Process</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-c1ef7b7cf0cc4d7ca877f8080aceaf0a.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-98c1125478804edfad6c9f892ae0c026.html" target="element"> Display Invalid Message</a></td>
+										</tr><tr>
+											<td><a href="../elements/id-e57e3ce0424148488149bfe2a4fa826c.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-CompositionRelationship" /></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+											<td><a href="../elements/id-0706f11ce5f1479a93e4a4809e8d6666.html" target="element"> Display Error </a></td>
+										</tr>
+									<tr>
+											<td><a href="../elements/id-a0aee6b31ddb45cf89fad680c3ca5a2b.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-TriggeringRelationship" /></td>
+											<td><a href="../elements/id-d8607d3233e245a098d34e09e7131073.html" target="element"> Plate Placed</a></td>
+											<td><a href="../elements/id-3c7b50098a3e4dbcbd03d9656b6030bd.html" target="element"> Self Checkout</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
